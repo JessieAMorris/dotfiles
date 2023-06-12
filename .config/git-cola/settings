@@ -1,0 +1,62 @@
+{
+    "bookmarks": [],
+    "gui_state": {
+        "mainview": {
+            "geometry": "AdnQywADAAAAAALwAAAAGQAAC78AAAabAAAC8AAAADUAAAu/AAAGmwAAAAAAAAAAC8AAAALwAAAANQAAC78AAAab",
+            "width": 2256,
+            "height": 1639,
+            "x": 752,
+            "y": 25,
+            "lock_layout": false,
+            "windowstate": "AAAA/wAAAAL9AAAAAgAAAAIAAAjQAAAB3PwBAAAAAvsAAAAMAEMAbwBtAG0AaQB0AQAAAAAAAAjQAAAAlQD////8AAAEhAAABEwAAAAAAP////r/////AQAAAAT7AAAAEABCAHIAYQBuAGMAaABlAHMAAAAAAP////8AAACZAP////sAAAAUAFMAdQBiAG0AbwBkAHUAbABlAHMAAAAAAP////8AAADAAP////sAAAASAEYAYQB2AG8AcgBpAHQAZQBzAAAAAAD/////AAAAqwD////7AAAADABSAGUAYwBlAG4AdAAAAAAA/////wAAAIoA////AAAAAwAACNAAAASI/AEAAAAD+wAAAAgARABpAGYAZgEAAAAAAAAF3QAAAGQA////+wAAAAwAUwB0AGEAdAB1AHMBAAAF4AAAAvAAAAB0AP////wAAAAA/////wAAAAAA////+v////8BAAAAAvsAAAAOAEEAYwB0AGkAbwBuAHMAAAAAAP////8AAABjAP////sAAAAOAEMAbwBuAHMAbwBsAGUAAAAAAP////8AAABnAP///wAACNAAAAAAAAAABAAAAAQAAAAIAAAACPwAAAAA",
+            "show_status_filter": false,
+            "toolbars": [],
+            "ref_sort": 0,
+            "show_diff_line_numbers": true,
+            "image_diff_mode": 0,
+            "image_zoom_mode": 0,
+            "word_wrap": true
+        },
+        "messagebox": {
+            "width": 720,
+            "height": 176,
+            "x": 1520,
+            "y": 770
+        }
+    },
+    "recent": [
+        {
+            "name": "infrastructure",
+            "path": "/Users/jessie/projects/portfolios/infrastructure"
+        },
+        {
+            "name": "preventions-api",
+            "path": "/Users/jessie/projects/portfolios/preventions-api"
+        },
+        {
+            "name": "ethoca-prevention-normalizer",
+            "path": "/Users/jessie/projects/portfolios/ethoca-prevention-normalizer"
+        },
+        {
+            "name": "provider-merchant-migrations",
+            "path": "/Users/jessie/projects/portfolios/provider-merchant-migrations"
+        },
+        {
+            "name": "email_delivery_worker",
+            "path": "/Users/jessie/projects/midigator/email_delivery_worker"
+        },
+        {
+            "name": "infrastructure",
+            "path": "/Users/jessie/projects/midigator/infrastructure"
+        },
+        {
+            "name": "midigator_api",
+            "path": "/Users/jessie/projects/midigator/midigator_api"
+        },
+        {
+            "name": "mids-api",
+            "path": "/Users/jessie/projects/portfolios/mids-api"
+        }
+    ],
+    "copy_formats": []
+}
