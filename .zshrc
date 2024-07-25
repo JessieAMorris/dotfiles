@@ -1,20 +1,14 @@
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 eval $(thefuck --alias)
 
 alias ll="ls -l"
 alias la="ls -la"
 
+alias vim="nvim"
+alias vi="nvim"
+
 alias k="kubectl"
-
-kube_prompt() {
-   kubectl_current_context=$(kubectl config current-context)
-   kubectl_project=$(echo $kubectl_current_context | cut -d '_' -f 2)
-   kubectl_cluster=$(echo $kubectl_current_context | cut -d '_' -f 4)
-   kubectl_prompt="($kubectl_project|$kubectl_cluster)"
-   echo $kubectl_prompt
-}
-
-source /opt/homebrew/share/kube-ps1.sh
-PROMPT='$(kube_ps1)'$PROMPT
 
 autoload -Uz compinit && compinit
 autoload bashcompinit && bashcompinit
