@@ -6,7 +6,7 @@ return {
 	end,
 	config = function()
 		require('wincent.commandt').setup({
-			-- Customizations go here.
+			ignore_case = true,
 		})
 	end,
 }

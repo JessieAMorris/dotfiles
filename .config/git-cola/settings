@@ -2,17 +2,18 @@
     "bookmarks": [],
     "gui_state": {
         "mainview": {
-            "geometry": "AdnQywADAAAAAALwAAAAGQAAC78AAAabAAAC8AAAADUAAAu/AAAGmwAAAAAAAAAAC8AAAALwAAAANQAAC78AAAab",
-            "width": 2256,
-            "height": 1639,
-            "x": 752,
+            "geometry": "AdnQywADAAAAAANIAAAAGQAADR8AAAdhAAADSAAAADUAAA0fAAAHYQAAAAAAAAAADSAAAANIAAAANQAADR8AAAdh",
+            "width": 2520,
+            "height": 1837,
+            "x": 840,
             "y": 25,
             "lock_layout": false,
-            "windowstate": "AAAA/wAAAAL9AAAAAgAAAAIAAAjQAAAB3PwBAAAAAvsAAAAMAEMAbwBtAG0AaQB0AQAAAAAAAAjQAAAAlQD////8AAAEhAAABEwAAAAAAP////r/////AQAAAAT7AAAAEABCAHIAYQBuAGMAaABlAHMAAAAAAP////8AAACZAP////sAAAAUAFMAdQBiAG0AbwBkAHUAbABlAHMAAAAAAP////8AAADAAP////sAAAASAEYAYQB2AG8AcgBpAHQAZQBzAAAAAAD/////AAAAqwD////7AAAADABSAGUAYwBlAG4AdAAAAAAA/////wAAAIoA////AAAAAwAACNAAAASI/AEAAAAD+wAAAAgARABpAGYAZgEAAAAAAAAF3QAAAGQA////+wAAAAwAUwB0AGEAdAB1AHMBAAAF4AAAAvAAAAB0AP////wAAAAA/////wAAAAAA////+v////8BAAAAAvsAAAAOAEEAYwB0AGkAbwBuAHMAAAAAAP////8AAABjAP////sAAAAOAEMAbwBuAHMAbwBsAGUAAAAAAP////8AAABnAP///wAACNAAAAAAAAAABAAAAAQAAAAIAAAACPwAAAAA",
+            "windowstate": "AAAA/wAAAAL9AAAAAgAAAAIAAAnYAAAAgvwBAAAAAvsAAAAMAEMAbwBtAG0AaQB0AQAAAAAAAAnYAAAAlQD////8AAAEhAAABEwAAAAAAP////r/////AQAAAAT7AAAAEABCAHIAYQBuAGMAaABlAHMAAAAAAP////8AAACZAP////sAAAAUAFMAdQBiAG0AbwBkAHUAbABlAHMAAAAAAP////8AAAC/AP////sAAAASAEYAYQB2AG8AcgBpAHQAZQBzAAAAAAD/////AAAAvQD////7AAAADABSAGUAYwBlAG4AdAAAAAAA/////wAAAJwA////AAAAAwAACdgAAAao/AEAAAAD+wAAAAgARABpAGYAZgEAAAAAAAAI9wAAAHgA////+wAAAAwAUwB0AGEAdAB1AHMBAAAI+gAAAN4AAABzAAAgAPwAAAAA/////wAAAAAA////+v////8BAAAAAvsAAAAOAEEAYwB0AGkAbwBuAHMAAAAAAP////8AAABjAP////sAAAAOAEMAbwBuAHMAbwBsAGUAAAAAAP////8AAABmAP///wAACdgAAAAAAAAABAAAAAQAAAAIAAAACPwAAAAA",
             "show_status_filter": false,
             "toolbars": [],
             "ref_sort": 0,
             "show_diff_line_numbers": true,
+            "show_diff_filenames": true,
             "image_diff_mode": 0,
             "image_zoom_mode": 0,
             "word_wrap": true
@@ -20,11 +21,19 @@
         "messagebox": {
             "width": 720,
             "height": 176,
-            "x": 1520,
-            "y": 770
+            "x": 1740,
+            "y": 868
         }
     },
     "recent": [
+        {
+            "name": "aws-infrastructure",
+            "path": "/Users/jam/projects/slate/aws-infrastructure"
+        },
+        {
+            "name": "GenericTranslator",
+            "path": "/Users/jam/projects/slate/GenericTranslator"
+        },
         {
             "name": "infrastructure",
             "path": "/Users/jessie/projects/portfolios/infrastructure"
@@ -48,14 +57,6 @@
         {
             "name": "infrastructure",
             "path": "/Users/jessie/projects/midigator/infrastructure"
-        },
-        {
-            "name": "midigator_api",
-            "path": "/Users/jessie/projects/midigator/midigator_api"
-        },
-        {
-            "name": "mids-api",
-            "path": "/Users/jessie/projects/portfolios/mids-api"
         }
     ],
     "copy_formats": []

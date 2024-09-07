@@ -1,4 +1,5 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
+export PATH="/opt/homebrew/bin:$PATH"
 
 eval $(thefuck --alias)
 
@@ -10,11 +11,10 @@ alias vi="nvim"
 
 alias k="kubectl"
 
-autoload -Uz compinit && compinit
 autoload bashcompinit && bashcompinit
+autoload -Uz compinit && compinit
 source <(kubectl completion zsh)
 complete -C 'aws_completer' aws
-
 
 set -o vi
 
@@ -52,4 +52,3 @@ if [ ! -S ~/.ssh/ssh_auth_sock ]; then
 fi
 export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
 
-export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
