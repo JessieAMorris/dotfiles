@@ -9,19 +9,27 @@ alias la="ls -la"
 alias vim="nvim"
 alias vi="nvim"
 
-alias k="kubectl"
-
-autoload bashcompinit && bashcompinit
-autoload -Uz compinit && compinit
-source <(kubectl completion zsh)
-complete -C 'aws_completer' aws
-
 set -o vi
 
 export PATH=$PATH:~/libs/bin/:/usr/local/bin/
 
+####################################################
+# Kubernetes
+####################################################
+alias k="kubectl"
 alias kctx="k config use-context"
 alias kns="k config set-context --current --namespace"
+source "/opt/homebrew/opt/kube-ps1/share/kube-ps1.sh"
+PS1='$(kube_ps1)'$PS1
+
+
+####################################################
+# Completion
+####################################################
+autoload bashcompinit && bashcompinit
+autoload -Uz compinit && compinit
+source <(kubectl completion zsh)
+complete -C 'aws_completer' aws
 
 eval "$(pyenv init -)"
 
@@ -52,3 +60,6 @@ if [ ! -S ~/.ssh/ssh_auth_sock ]; then
 fi
 export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
 
+export AWS_PROFILE="dev"
+export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+export PATH="/opt/homebrew/opt/curl/bin:$PATH"

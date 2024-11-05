@@ -7,6 +7,12 @@ return {
 	config = function()
 		require('wincent.commandt').setup({
 			ignore_case = true,
+			scanners = {
+				git = {
+					untracked = true,
+					submodules = false,
+				}
+			}
 		})
 	end,
 }

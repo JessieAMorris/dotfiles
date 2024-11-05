@@ -1,5 +1,16 @@
 vim.g.wordmotion_prefix = ','
 
+-- vim.g.wildignore:append{
+-- 	'*/node_modules',
+-- 	'*/.git',
+-- 	'*/build/*',
+-- 	'*/venv/*',
+-- 	'*/env/*',
+-- 	'*/coverage/*',
+-- 	'*/vendor/*',
+-- 	'*/__pycache__/*',
+-- }
+
 require("config.lazy")
 require("config.mason")
 require("config.go")
@@ -27,3 +38,8 @@ vim.opt.listchars = {
 	lead = '·',
 }
 vim.opt.list = true
+
+-- Ctrl-Space for autocomplete
+vim.keymap.set('i', '<C-Space>', '<C-X><C-O>')
+
+vim.keymap.set('n', '<Esc><Esc>', '<Esc>:nohlsearch<CR><Esc>', { noremap = true, silent = true })
