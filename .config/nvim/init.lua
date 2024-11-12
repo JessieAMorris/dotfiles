@@ -14,6 +14,7 @@ vim.g.wordmotion_prefix = ','
 require("config.lazy")
 require("config.mason")
 require("config.go")
+require("config.java")
 
 vim.cmd 'colorscheme slate'
 vim.cmd 'set number'
